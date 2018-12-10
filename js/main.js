@@ -46,10 +46,17 @@ var css1 = `/*
   /* 我需要一点代码高亮 */
   .token.selector{ color: #690; }
   .token.property{ color: #905; }
+
+  /* 加点3D效果 */
+  #code{
+    transform: rotate(360deg);
+  }
+
   /* 加一个呼吸效果 */
   #code{
     animation: breath 0.5s infinite alternate-reverse;
   }
+
   /* 现在正式开始 */
   /* 我需要一张白纸 */
   #code-wrapper{
@@ -59,6 +66,7 @@ var css1 = `/*
   #paper > .content {
    display: block;
   }
+
   /* 于是我就可以在白纸上写字了，请看右边 */
   `
 
@@ -69,8 +77,8 @@ var css2 = `
   `
 var md = `
 # 自我介绍
-我叫 XXX
-1990 年 1 月出生
+我叫 Vic Zhong
+1994 年 9 月出生
 XXX 学校毕业
 自学前端半年
 希望应聘前端开发岗位
